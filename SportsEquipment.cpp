@@ -35,7 +35,7 @@ float Products::Sport::SportEquipment::getWeight() const
 void Products::Sport::SportEquipment::show() const
 {
     using namespace std;
-    cout << "\tSport Equipment\n";
+    cout << "\tSPORT EQUIPMENT\n";
     cout << "Name: " << name << endl;
     cout << "Manufacture: " << manufacture << endl;
     cout << "Kind: " << kind << endl;
