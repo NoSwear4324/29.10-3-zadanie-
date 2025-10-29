@@ -26,8 +26,6 @@ namespace Products
 
 			virtual void show()const override;
 			virtual float calcPrice()const override;
-			virtual void saveToFile(std::ofstream& file) const override;
-			virtual void loadFromFile(std::ifstream& file) override;
 		};
 
 	}
