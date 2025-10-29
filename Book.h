@@ -24,10 +24,10 @@ namespace Products
 			std::string getGenre() const;
 			int getPages() const;
 
-			virtual void show()const = 0;
-			virtual float calcPrice()const = 0;
-			virtual void saveToFile(std::ofstream& file) const = 0;
-			virtual void loadFromFile(std::ifstream& file) = 0;
+			virtual void show()const override;
+			virtual float calcPrice()const override;
+			virtual void saveToFile(std::ofstream& file) const override;
+			virtual void loadFromFile(std::ifstream& file) override;
 		};
 
 	}

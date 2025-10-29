@@ -28,7 +28,7 @@ namespace Products
 
 		virtual void show()const = 0;
 		virtual float calcPrice()const = 0;
-		virtual void saveToFile(std::ofstream& file) const = 0;
-		virtual void loadFromFile(std::ifstream& file) = 0;
+		//virtual void saveToFile(std::ofstream& file) const = 0;
+		//virtual void loadFromFile(std::ifstream& file) = 0;
 	};
 }
